@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <h1>Calculator</h1>
-      <form id="input">
+      <form id="inputAdd">
         <div class="form-group">
           <label for="add1">1st number:</label>
           <input id="add1" class="form-control" type="text">
@@ -20,9 +20,51 @@
           <input id="add2" class="form-control" type="text">
         </div>
         <div>
-          Result: <span id="result"></span>
+          Result: <span id="resultAdd"></span>
         </div>
-        <button type="submit" class="btn" id="submitButton">Add!</button>
+        <button type="submit" class="btn" id="submitButtonAdd">Add!</button>
+      </form>
+      <form id="inputSub">
+        <div class="form-group">
+          <label for="sub1">1st number:</label>
+          <input id="sub1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="sub2">2nd number:</label>
+          <input id="sub2" class="form-control" type="text">
+        </div>
+        <div>
+          Result: <span id="resultSub"></span>
+        </div>
+        <button type="submit" class="btn" id="submitButtonSub">Subtract!</button>
+      </form>
+      <form id="inputMult">
+        <div class="form-group">
+          <label for="mult1">1st number:</label>
+          <input id="mult1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="mult2">2nd number:</label>
+          <input id="mult2" class="form-control" type="text">
+        </div>
+        <div>
+          Result: <span id="resultMult"></span>
+        </div>
+        <button type="submit" class="btn" id="submitButtonMult">Multiply!</button>
+      </form>
+      <form id="inputDiv">
+        <div class="form-group">
+          <label for="div1">1st number:</label>
+          <input id="div1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="div2">2nd number:</label>
+          <input id="div2" class="form-control" type="text">
+        </div>
+        <div>
+          Result: <span id="resultDiv"></span>
+        </div>
+        <button type="submit" class="btn" id="submitButtonDiv">Divide!</button>
       </form>
     </div>
   </body>
